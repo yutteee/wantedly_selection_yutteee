@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "plop": "plop"
   },
   "dependencies": {
     "@types/node": "20.3.2",
@@ -32,6 +33,7 @@
     "@storybook/testing-library": "^0.0.14-next.2",
     "@types/styled-components": "^5.1.26",
     "eslint-plugin-storybook": "^0.6.12",
+    "plop": "^3.1.2",
     "storybook": "^7.0.24"
   }
 }
